@@ -42,6 +42,3 @@ FROM 'F:\SQL_PROJECT_DATA_ANALYSIS\csv_files\skills_job_dim.csv'
 WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
 
 
-SELECT *
-FROM job_postings_fact
-LIMIT 100;
